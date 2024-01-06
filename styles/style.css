@@ -23,12 +23,12 @@ body {
 }
 
 .btn-primary {
-    border-radius: 8px;
     background: #E55473;
     display: inline-flex;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
+    border-radius: 8px;
 
 
 }
@@ -59,4 +59,220 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.featured {
+    background: #FFF;
+    padding: 100px 0px 0px 0px;
+    line-height: 100px;
+}
+
+.featured-flowers {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    gap: 24px;
+}
+
+.featured-flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+    /* 166.667% */
+}
+
+.box {
+    width: 464px;
+    height: 538px;
+    
+    text-align: center;
+    color: white;
+}
+
+.icon-1{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    padding: 110px 20px 0px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.icon-2{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    padding: 110px 20px 0px 20px;
+   
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+
+.icon-3{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    padding: 110px 20px 0px 20px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+}
+
+.support-system{
+    width: 1440px;
+    height: 320px;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 300px 240px 200px 210px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.box-2{
+    justify-content: space-around;
+    text-align: center;
+}
+.support{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 145.833% */
+padding-top: 20px;
+}
+
+.discount{
+height: 620px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.discount-2{
+    line-height: 70px;
+    padding-top: 50px;
+}
+.discount-3{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+
+.discount-4{
+    color: rgba(39, 39, 39, 0.60);
+
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.discount-5{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+}
+
+.discount-6{
+    padding-top: 50px;
+    padding-right: 100px;
+}
+.off{
+    color: #E55473;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.email-add{
+    background: url(../images/Rectangle\ 9.png), no-repeat;
+    height: 449px;
+    margin: 100px 300px 100px 300px;
+}
+.email-2{
+    padding-top: 100px;
+}
+.news-form{
+    margin: 100px 300px 100px 300px;
+    display: flex;
+    gap: 10px;
+
+}
+.input{
+    height: 64px;
+    width: 700px;
+}
+
+.footer{
+height: 449px;
+background: #111010;
+}
+.flower-shop{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+}
+.shop{
+    color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+
+}
+.flower-shop-2{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-top: 24px;
+}
+.flower-shop-3{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+padding-top: 32px;
+}
+.footer-1{
+    padding-top: 128px;
 }
